@@ -56,15 +56,7 @@ public class TotoJPanel extends JPanel {
 		int index = listCouleurs.indexOf(result);
 		int sizeList = listCouleurs.size();
 		
-		if((index+1) < sizeList)
-		{
-			result = listCouleurs.get(index+1);
-		}
-		else 
-		{
-			result = listCouleurs.get(0);
-			index = 0;
-		}
+		result = ((index+1) < sizeList)?listCouleurs.get(index+1):listCouleurs.get(0);
 		
 		return result;
 	}
