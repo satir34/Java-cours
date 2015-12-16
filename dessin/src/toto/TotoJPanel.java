@@ -90,14 +90,7 @@ public class TotoJPanel extends JPanel {
 		b.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				if(listDessins.get(0).isVisible())
-				{
-					listDessins.get(0).setVisibility(false);
-				}
-				else 
-				{
-					listDessins.get(0).setVisibility(true);
-				}
+				listDessins.get(0).setVisibility(!listDessins.get(0).isVisible());
 				TotoJPanel.this.repaint();
 			}
 		});
@@ -106,14 +99,7 @@ public class TotoJPanel extends JPanel {
 		b2.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				if(listDessins.get(1).isVisible())
-				{
-					listDessins.get(1).setVisibility(false);
-				}
-				else 
-				{
-					listDessins.get(1).setVisibility(true);
-				}
+				listDessins.get(1).setVisibility(!listDessins.get(1).isVisible());
 				TotoJPanel.this.repaint();
 			}
 		});
@@ -122,14 +108,7 @@ public class TotoJPanel extends JPanel {
 		b3.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				if(listDessins.get(2).isVisible())
-				{
-					listDessins.get(2).setVisibility(false);
-				}
-				else 
-				{
-					listDessins.get(2).setVisibility(true);
-				}
+				listDessins.get(2).setVisibility(!listDessins.get(2).isVisible());
 				TotoJPanel.this.repaint();
 			}
 		});
@@ -138,14 +117,7 @@ public class TotoJPanel extends JPanel {
 		b4.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				if(listDessins.get(3).isVisible())
-				{
-					listDessins.get(3).setVisibility(false);
-				}
-				else 
-				{
-					listDessins.get(3).setVisibility(true);
-				}
+				listDessins.get(3).setVisibility(!listDessins.get(3).isVisible());
 				TotoJPanel.this.repaint();
 			}
 		});
